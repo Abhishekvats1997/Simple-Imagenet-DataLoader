@@ -18,7 +18,7 @@ from ImageNet import ImageNet
 dataset = ImageNet(data_dir,transforms)
 ```
 
-##Sample Usage Type 2
+## Sample Usage Type 2
 ```
 from ImageNet import ImageNetFull
 ```
