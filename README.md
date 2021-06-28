@@ -27,5 +27,5 @@ dataset = ImageNetFull(data_dir,transforms)
 ```
 
 ## Note
-- There are a few scripts available online which modify the directory structure of your dataset into a suitable one for the default Pytoch Dataloader but if run incorrectly it can ruin your entire dataset and the Fll ImageNet dataset being 165gb is a pain to redownload aur even extract.
-- The labels returned by this implementation are the actual classification labels and hence no additional code is required while calculating the loss and accuracy in the training loop 
+- There are a few scripts available online which modify the directory structure of your dataset into a suitable one for the default Pytoch Dataloader but if run incorrectly it can ruin your entire dataset and the Full ImageNet dataset being 165gb is a pain to redownload or even extract.
+- The labels returned by this implementation are the actual classification labels and hence no additional code is required while calculating the loss and accuracy in the training loop.
