@@ -10,7 +10,7 @@ There are two variants of Imagenet with directory structure as follows
 - train and val both folders have images in subfolders. (Type 1)
 - train has images in subfolders while val has all the images present as is without any subfolders. (Type 2)
 
-##Sample Usage Type 1
+## Sample Usage Type 1
 ```
 from ImageNet import ImageNet
 ```
